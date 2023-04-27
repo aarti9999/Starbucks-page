@@ -1,0 +1,553 @@
+html{
+    font-size: 62.5%;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+header{
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar  img{
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 2.3rem 1rem 2.3rem 4rem;
+}
+.navbar .nav-links a{
+    text-decoration: none;
+    color: rgb(37, 33, 33);
+    font-size: 1.5rem;
+    font-weight: bolder;
+margin: 0rem 1rem 0rem 2rem;
+}
+.navbar .nav-links-2{
+    position:relative;
+    right: -55rem;
+}
+.navbar .nav-links-2 a{
+    text-decoration: none;
+    color: rgb(37, 33, 33);
+    font-size: 1.5rem;
+    font-weight: bolder;
+margin: 0rem 1rem 0rem 1rem;
+}
+.nav-links-2 .sign-in-btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1.6rem;
+    width: 8rem;
+    height:3.5rem;
+    margin-left: 2rem;
+}
+.nav-links-2 .join-btn a{
+    color: white;
+}
+.nav-links-2 .join-btn{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 1.6rem;
+    width: 9rem;
+    height:3.5rem;
+    margin-left: 1rem;
+}
+.nav-links a:hover,.nav-links-2 .find-loc:hover{
+color: green;
+}
+.nav-links-2 .sign-in-btn:hover{
+    background-color: rgb(206, 202, 202);
+}
+.nav-links-2 .join-btn:hover{
+opacity: 0.7;
+}
+/*main coontent*/
+.div1{
+    width: 100%;
+    height: 21rem;
+    background-color: rgb(224, 3, 40);
+    color: white;
+    text-align: center;
+}
+.div1 .div1-p1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.div1 p{
+    font-size: 2.5rem;
+    padding: 0rem 2rem 2rem 0rem;
+}
+.div1 p a{
+    color: white;
+    text-decoration: underline;
+}
+.div1 p a:hover{
+    text-decoration: none;
+}
+
+.div2{
+    width: 100%;
+    height: 56rem;
+    background-color: rgb(224, 3, 40);
+    color: white;
+    margin-top: 3.5rem;
+    display: flex;
+}
+.div2 .sub-div-1 {
+    width: 50vw;
+    text-align: center;
+    margin:7rem 7rem 7rem 7rem;
+}
+.div2 .sub-div-1 .div2-p1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 0rem 9rem 0rem 9rem;
+}
+.div2 p{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin: 2.5rem 0rem;
+}
+.div2 .sub-div-1 button{
+    background-color: inherit;
+    border: 1px solid white;
+  margin: 3rem 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+}
+.div2 .sub-div-1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.div2 .sub-div-1 button:hover{
+    background-color: rgb(189, 9, 39);
+}
+.div2  .img-div img{
+    width: 50vw;
+    height: 56rem;
+}
+
+.div3{
+    width: 100%;
+    height: 56rem;
+    background-color: #d7092c;
+    color: white;
+    margin-top: 3.5rem;
+    display: flex;
+}
+.div3 .sub-div-1 {
+    width: 50vw;
+    text-align: center;
+    margin:11rem 7rem 7rem 7rem;
+}
+.div3 .sub-div-1 .div3-p1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 0rem 9rem 0rem 9rem;
+}
+.div3 p{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin: 2.5rem 0rem;
+}
+.div3 .sub-div-1 button{
+    background-color: inherit;
+    border: 1px solid white;
+  margin: 3rem 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+}
+.div3 .sub-div-1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.div3 .sub-div-1 button:hover{
+    background-color: rgb(201, 5, 38);
+}
+.div3  .img-div img{
+    width: 50vw;
+    height: 56rem;
+}
+
+.div4{
+    width: 100%;
+    height: 56rem;
+    background-color:#26ad8b;
+    color: rgb(43, 41, 41);
+    margin-top: 3.5rem;
+    display: flex;
+}
+.div4 .sub-div-1 {
+    width: 50vw;
+    text-align: center;
+    margin:15rem 7rem 7rem 7rem;
+}
+.div4 .sub-div-1 .div4-p1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 0rem 6rem 0rem 6rem;
+}
+.div4 p{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin: 2.5rem 0rem;
+}
+.div4 .sub-div-1 button{
+    background-color: inherit;
+    border: 1px solid rgb(43, 41, 41);
+  margin: 3rem 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+}
+.div4 .sub-div-1 button a{
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.div4 .sub-div-1 button:hover{
+    background-color: rgb(51, 172, 126);
+}
+.div4  .img-div img{
+    width: 50vw;
+    height: 56rem;
+}
+
+.div5{
+    width: 100%;
+    height: 40rem;
+    background-color:#1e3932;
+    color: white;
+    margin-top: 3.5rem;
+    display: flex;
+}
+.div5 .sub-div-1 {
+    width: 50vw;
+    text-align: center;
+    margin:4rem 4rem 0rem 4rem;
+}
+.div5 .sub-div-1 .div5-p1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 0rem 6rem 0rem 6rem;
+}
+.div5 p{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin: 1rem 6rem;
+}
+.div5 .sub-div-1 button{
+    background-color: inherit;
+    border: 1px solid white;
+  margin: 3rem 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+}
+.div5 .sub-div-1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.div5 .sub-div-1 button:hover{
+    background-color: rgb(53, 87, 73);
+}
+.div5  .img-div img{
+    width: 50vw;
+    height: 40rem;
+}
+
+.div6{
+    width: 100%;
+    height: 40rem;
+    background-color:#d50032;
+    color: white;
+    margin-top: 3.5rem;
+    display: flex;
+}
+.div6 .sub-div-1 {
+    width: 50vw;
+    text-align: center;
+    margin:4rem 4rem 0rem 4rem;
+}
+.div6 .sub-div-1 .div5-p1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 0rem 6rem 0rem 6rem;
+}
+.div6 p{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin: 1rem 6rem;
+}
+.div6 .sub-div-1 button{
+    background-color: inherit;
+    border: 1px solid white;
+  margin: 3rem 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+}
+.div6 .sub-div-1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.div6 .sub-div-1 button:hover{
+    background-color: rgb(241, 55, 80);
+}
+.div6  .img-div img{
+    width: 50vw;
+    height: 40rem;
+}
+.div7{
+    width: 100%;
+    height: 8rem;
+    margin-top: 3.5rem;
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+    /* border-bottom:1px solid gray; */
+}
+.div7 p{
+    padding: 1.5rem;
+}
+.div7 p a{
+    color: black;
+}
+.div7 p a:hover{
+   text-decoration: none;
+}
+footer{
+    width: 100%;
+    border-top: .1px solid rgb(219, 218, 218);
+}
+.ft-section-1{
+    font-size: 1.7rem;
+    display: flex;
+    padding: 3rem 3rem 2rem 3rem;
+}
+.ft-section-1 ul li{
+    list-style: none;
+    line-height: 2.5rem;
+    padding: .5rem 2rem 2rem 2rem;
+}
+.ft-section-1 ul li a{
+    text-decoration: none;
+    color: rgb(105, 101, 101);
+}
+.ft-section-1 ul li:first-child{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(75, 72, 72);
+    padding-bottom: 2.8rem;
+}
+.ft-section-1 ul li a:hover{
+   color: black;
+}
+.ft-section-2 .ft-icons{
+    margin: 1.5rem;
+}
+.ft-section-2 .ft-icons i{
+    font-size: 3rem;
+    color: rgb(44, 43, 43);
+    margin: 2rem .1rem 1rem 1.8rem;
+}
+.ft-section-2 hr{
+    width: 95%;
+    margin-left: 4rem;
+}
+.ft-section-2 .ft-policy{
+    font-size: 1.6rem;
+    margin: 0.8rem 0rem 2.3rem 3.5rem;
+}
+.ft-section-2 .ft-policy a{
+    text-decoration: none;
+    color: black;
+}
+.ft-section-2 .ft-copyright{
+    font-size: 1.4rem;
+    color: rgb(105, 103, 103);
+    margin: .8rem 0rem 3.8rem 3.5rem;;
+}
+.ft-section-2 .ft-icons i:hover{
+ color: rgb(122, 99, 99);
+}
+.ft-section-2 .ft-policy a:hover{
+    text-decoration: underline;
+}
+ 
+@media (max-width:1294px) {
+    .navbar .nav-links-2{
+        right: -30rem;
+    }
+}
+@media (max-width:1062px) {
+    html{
+        font-size: 55%;
+    }
+    .navbar .nav-links-2{
+        right: -30rem;
+    }
+    .div1-p1,.div2-p1,.div3-p1,.div4-p1{
+        font-size: 3.8rem;
+    }
+    .div2 .sub-div-1{
+        margin: 1rem;
+    }
+    .div3 .sub-div-1,.div4 .sub-div-1{
+        margin: 4rem;
+    }
+    .div5 .sub-div-1,.div5 .sub-div-1 button{
+        margin: 0rem;
+    }
+    .div5 p{
+        margin: 0rem;
+    }
+    .div6 .sub-div-1,.div6 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div6 p{
+        margin: 1rem;
+    }
+}
+@media (max-width:998px) {
+    .navbar .nav-links-2{
+        right: -20rem;
+    }
+    html{
+        font-size: 55%;
+    }
+    .div1-p1,.div2-p1,.div3-p1,.div4-p1{
+        font-size: 3.8rem;
+    }
+    .div2 .sub-div-1{
+        margin: 1rem;
+    }
+    .div3 .sub-div-1,.div4 .sub-div-1{
+        margin: 3rem;
+    }
+    .div5 .sub-div-1,.div5 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div5 p{
+        margin: 1rem;
+    }
+    .div6 .sub-div-1,.div6 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div6 p{
+        margin: 1rem;
+    }
+}
+@media (max-width:840px) {
+    .navbar .nav-links-2{
+        right: -10rem;
+    }
+    html{
+        font-size: 45%;
+    }
+    .div1-p1,.div2-p1,.div3-p1,.div4-p1{
+        font-size: 2.8rem;
+    }
+    .div2 .sub-div-1{
+        margin: 0rem;
+    }
+    .div3 .sub-div-1,.div4 .sub-div-1{
+        margin: 1rem;
+    }
+    .div5 .sub-div-1,.div5 .sub-div-1 button{
+        margin: 0rem;
+    }
+    .div5 p{
+        margin: 1rem;
+    }
+    .div6 .sub-div-1,.div6 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div6 p{
+        margin: 1rem;
+    }
+}
+@media (max-width:768px) {
+    .navbar .nav-links-2{
+        right: -10rem;
+    }
+    html{
+        font-size: 45%;
+    }
+    .div1-p1,.div2-p1,.div3-p1,.div4-p1{
+        font-size: 3.8rem;
+    }
+    .div2 .sub-div-1{
+        margin: 1rem;
+    }
+    .div3 .sub-div-1,.div4 .sub-div-1{
+        margin: 4rem;
+    }
+    .div5 .sub-div-1,.div5 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div5 p{
+        margin: 1rem;
+    }
+    .div6 .sub-div-1,.div6 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div6 p{
+        margin: 1rem;
+    }
+}
+@media (max-width:568px) {
+    .navbar .nav-links-2{
+        right: -10rem;
+    }
+    html{
+        font-size: 40%;
+    }
+    .nav-links-2 .find-loc{
+        display: none;
+    }
+    .div1-p1,.div2-p1,.div3-p1,.div4-p1{
+        font-size: 3.8rem;
+    }
+    .div2 .sub-div-1{
+        margin: 1rem;
+    }
+    .div3 .sub-div-1,.div4 .sub-div-1{
+        margin: 4rem 2rem 4rem 0rem;
+    }
+    .div5 .sub-div-1,.div5 .sub-div-1 button{
+        margin: 0rem;
+    }
+    .div5 p{
+        margin: 1rem;
+    }
+    .div6 .sub-div-1,.div6 .sub-div-1 button{
+        margin: 1rem;
+    }
+    .div6 p{
+        margin: 1rem;
+    }
+}
